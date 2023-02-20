@@ -179,7 +179,7 @@ class Console extends h2d.Console {
 				for(a in commands.get(c).args)
 					switch a.t {
 						case AInt:
-						//case AArray(_): removed from v 1.9.1.
+						//case AArray(_): //removed from heaps v 1.9.1.
 						case AFloat:
 						case AString:
 						case ABool:
